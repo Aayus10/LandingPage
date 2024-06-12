@@ -1,0 +1,66 @@
+
+
+
+.menu-bar{
+    @apply justify-between mt-[2.5%] ;
+}
+.menu-bar .nav-btns{
+  @apply ml-40 font-sans font-bold mb-2 text-blue-950 w-60  border-black  md:w-64 md:mx-0 md:ml-20 xl:w-40 xl:ml-0 xl:border-none;
+}
+.menu-bar .nav-btnssignup{
+  @apply   ml-40 mb-2 bg-yellow-400 text-blue-900 w-60 font-bold  md:w-64 md:mx-0 md:ml-20 xl:ml-2 xl:w-40;
+}
+.menu-bar .nav-btnslogin{
+  @apply    ml-40 mb-2 w-60 font-bold  md:w-64 md:mx-0 md:ml-20 xl:ml-2 xl:w-40;
+}
+
+@media (min-width: 1364px) {
+    /* Medium screens and above: Display items in a row */
+    .menu-bar {
+      @apply flex justify-between ;
+    }
+    .nav-bar .symbol{
+      @apply border-white max-h-28 max-w-52 mt-[3%] ml-[10%]
+    }
+    
+  }
+  
+  @media (max-width: 1363px) {
+    /* Small screens: Display items in a column */
+    .menu-bar .nav-btns{
+      @apply text-lg  mb-2 ;
+    }
+    .menu-bar .nav-btnssignup{
+      @apply text-lg  mb-2 bg-yellow-400 text-blue-900;
+    }
+    .menu-bar .nav-btnslogin{
+      @apply text-lg  mb-2 
+    }
+    .nav-bar .symbol{
+      @apply border-white max-h-28 max-w-52 mt-[3%] ml-[10%]
+    }
+    
+  }
+  
+  @media (min-width: 1364px) {
+    /* Medium screens and above: Display items in a row */
+    .menu-bar {
+      @apply flex-row flex justify-between ;
+    }
+    .nav-bar .symbol{
+      @apply border-white max-h-28 max-w-52 mt-[3%] ml-[10%]
+    }
+    
+  }
+  
+  @media (max-width: 1159px) {
+    /* Small screens: Display items in a column */
+    .menu-bar {
+      @apply flex-col gap-1 m-auto ;
+    }
+    .nav-bar .symbol{
+      @apply border-white max-h-28 max-w-52 mt-[3%] ml-[10%]
+    }
+    
+  }
+

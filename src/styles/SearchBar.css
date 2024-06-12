@@ -1,0 +1,62 @@
+.result-bar{
+    @apply  mt-[0.5%] pl-[2%] text-3xl 
+}
+.result-bar .search-textinfo{
+  @apply  text-lg font-semibold flex
+}
+.result-bar .search-textinfo2{
+  @apply  text-sm font-semibold flex md:text-2xl xl:text-3xl
+}
+
+.search{
+  @apply border-t-2 mt-[0.5%] 
+}
+
+.search-bar{
+    @apply   h-16 mt-4  mx-2  
+
+}
+.search .search-bar .select-filters{
+@apply  w-64 h-8  p-0 sm:w-72 lg:flex-row lg:w-96
+}
+
+.search .search-bar .select-filters input{
+  @apply  border-black text-black ;
+}
+
+.search .search-bar .select-filters input::placeholder{
+  @apply text-blue-950 font-semibold text-sm sm:text-xl sm:font-bold lg:text-2xl lg:font-semibold lg:align-middle
+  
+}
+
+.search .search-bar .filter-btn{
+  @apply text-blue-950 font-semibold text-sm border-blue-950 w-64 sm:text-xl sm:font-bold sm:w-72 lg:text-xl lg:font-semibold lg:text-left;
+  
+}
+
+
+
+
+
+
+.search-select input{
+  @apply border-2 border-black text-black;
+    
+}
+.search-select input::placeholder{
+  @apply text-blue-950 ;
+    
+}
+.search-select {
+   @apply w-[25%] text-blue-950 
+  }
+  
+
+
+.nav-bar .logo{
+    @apply object-contain h-12 w-12 border-2 border-black border-solid
+}
+
+.nav-btns-text{
+font-size: 60px;}
+

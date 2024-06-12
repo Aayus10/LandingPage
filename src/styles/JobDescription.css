@@ -1,0 +1,44 @@
+
+
+
+
+
+
+
+.desc-grid .grid .text-company{
+    @apply text-base text-purple-950 ;
+}
+
+.text-title{
+    @apply text-xl text-blue-950 font-bold;
+}
+.desc-grid .grid .text-deadline{
+    @apply  text-base mx-2  font-semibold;
+}
+
+.desc-grid .grid .text-deadline-date{
+    @apply  text-base mx-2 mb-5 font-semibold text-blue-950;
+}
+
+
+
+.jobdesc .fav-icon{
+    @apply text-white stroke-black h-7 w-7 mt-1 ml-0;
+    @apply md:h-9 md:w-9 md:mt-6 md:ml-7;
+    
+    @apply xl:h-9 xl:w-9 xl:ml-3 xl:mt-10;
+    
+  
+    stroke-width: 30; 
+}
+.jobdesc .fav-icon-selected{
+    @apply text-purple-600 stroke-black h-6 w-6 mt-4 ml-0;
+    @apply md:h-12 md:w-12 md:mt-7 md:ml-4;
+    @apply xl:h-9 xl:w-9 xl:ml-3 xl:mt-10;
+    
+  
+    stroke-width: 30; 
+}
+
+
+

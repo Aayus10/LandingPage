@@ -1,0 +1,12 @@
+.footerlogo{
+    @apply ml-[2%] mt-[5%] mb-[2%]  text-white 
+}
+
+.footerinfo{
+    background-color: #395389;
+    @apply  w-[100%]
+}
+.footerinfo .footerdetail{
+    @apply text-white  
+}
+

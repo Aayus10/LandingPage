@@ -1,0 +1,26 @@
+.mainpage{
+  @apply flex 
+}
+.mainpage .navpreview{
+ 
+ 
+ flex: 1;
+}
+.mainpage .jobdescription{
+  
+  flex:2
+}
+
+.screen{
+  background-color: #FCFCFC;
+ 
+}
+
+@media ( max-width: 1070px){
+  .mainpage{
+    @apply block
+  }
+
+  
+  
+}

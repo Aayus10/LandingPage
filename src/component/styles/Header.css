@@ -1,0 +1,12 @@
+.navlinks{
+    @apply mt-2 text-xl xl:text-2xl text-blue-950 font-bold cursor-pointer text-center md:mx-0 md:w-max md:p-1 mx-[25%] lg:h-max
+}
+
+.login{
+    @apply mt-2 text-xl xl:text-2xl text-white bg-blue-950 font-bold cursor-pointer text-center mx-[25%] md:mx-0 py-1 rounded-md md:w-max md:p-1 md:px-2 lg:h-max
+}
+
+.signup{
+    @apply mt-2 text-xl xl:text-2xl text-black bg-yellow-500 font-bold cursor-pointer text-center mx-[25%] md:mx-0 py-1 rounded-md md:w-max md:p-1 md:px-2 lg:h-max
+
+}

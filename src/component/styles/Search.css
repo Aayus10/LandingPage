@@ -1,0 +1,14 @@
+.select-filters input{
+    @apply  border-blue-950 border-opacity-60 text-black ;
+  }
+  
+  .select-filters input::placeholder{
+    @apply text-blue-950 font-semibold text-lg sm:text-xl lg:text-lg xl:text-xl lg:font-semibold lg:align-middle
+    
+  }
+
+  .search input{
+    @apply  border-blue-950 border-opacity-60 text-black ;
+  }
+
+  

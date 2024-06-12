@@ -1,0 +1,67 @@
+.preview{
+    @apply mx-[3%] my-[3%]  h-max
+}
+.preview .grid{
+    @apply mt-8 md:mt-1
+}
+
+
+
+.preview .grid .text-company{
+    @apply text-sm mt-0 text-purple-950 md:text-xl ;
+}
+
+.preview .grid .text-title{
+    @apply  text-sm md:text-3xl md:mt-4 xl:text-2xl text-blue-950 font-bold;
+}
+.preview .grid .text-deadline{
+    @apply  text-sm ml-4 md:text-xl  lg:text-lg lg:ml-4  font-semibold;
+}
+
+.preview .grid .text-deadline-date{
+    @apply  text-sm  font-semibold text-blue-950 md:text-xl lg:text-lg lg:mb-0;
+}
+
+.fav-icon{
+    @apply text-white stroke-black h-6 w-6 mt-4 ml-0 cursor-pointer;
+    @apply md:h-11 md:w-11 md:mt-5 md:ml-4 cursor-pointer;
+    @apply lg:h-8 lg:w-8 lg:mt-3 lg:ml-4 cursor-pointer;
+    
+  
+    stroke-width: 30; 
+}
+.fav-icon-selected{
+    @apply text-purple-950 stroke-black h-6 w-6 mt-4 ml-0 cursor-pointer;
+    @apply md:h-11 md:w-11 md:mt-5 md:ml-4 cursor-pointer;
+    @apply lg:h-8 lg:w-8 lg:mt-3 lg:ml-4 cursor-pointer;
+    
+  
+    stroke-width: 30; 
+}
+
+.favs-icon{
+    @apply text-white stroke-black h-8 w-8 mt-0 ml-0;
+    @apply md:h-7 md:w-7 md:mt-7 md:ml-4;
+    @apply lg:h-8 lg:w-8 lg:mt-7 lg:ml-4;
+    
+  
+    stroke-width: 30; 
+}
+.favs-icon-selected{
+    @apply text-purple-950 stroke-black h-6 w-6 mt-4 ml-0;
+    @apply md:h-11 md:w-11 md:mt-5 md:ml-4;
+    @apply lg:h-8 lg:w-8 lg:mt-3 lg:ml-4;
+    
+  
+    stroke-width: 30; 
+}
+
+
+
+
+.preview .grid .clock-icon{
+    @apply text-white stroke-black h-4 w-4 mt-1  ;
+    @apply md:text-white md:stroke-black md:h-6 md:w-6 md:mt-1 lg:mt-0 lg:h-5 lg:w-5;
+    
+  stroke-width: 30;
+}

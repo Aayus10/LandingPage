@@ -1,0 +1,12 @@
+
+
+.sort-by-select{
+    @apply  pl-2 ml-[1%] 
+}
+
+.sort-by-select input{
+    @apply  border-black
+}
+
+
+

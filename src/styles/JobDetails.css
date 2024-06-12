@@ -1,0 +1,7 @@
+.icon-design{
+@apply text-black bg-gray-200 rounded-3xl p-1 mt-[2%] md:rounded-full md:p-0
+}
+
+.flex .icon-text{
+    @apply mt-[5%] ml-[2%] font-mono text-base 
+}

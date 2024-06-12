@@ -1,0 +1,12 @@
+.skills{
+    @apply mt-[4%] 
+}
+.skills .badges{
+    @apply  text-blue-950 mr-5 mt-[1%]
+}
+.desc{ @apply mt-[4%]}
+
+.desc .text{
+    @apply text-xl 
+}
+
