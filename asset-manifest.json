@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/LandingPage/static/css/main.c16d07a2.css",
+    "main.js": "/LandingPage/static/js/main.a8c5112d.js",
+    "static/js/453.6e473e63.chunk.js": "/LandingPage/static/js/453.6e473e63.chunk.js",
+    "static/media/wolkswagen.jpg": "/LandingPage/static/media/wolkswagen.4892dfcb482252343dad.jpg",
+    "static/media/logo2.png": "/LandingPage/static/media/logo2.1d0015a3ec95a4b7a634.png",
+    "static/media/eb_pearls.jfif": "/LandingPage/static/media/eb_pearls.889af4caf9ca58e26816.jfif",
+    "index.html": "/LandingPage/index.html",
+    "main.c16d07a2.css.map": "/LandingPage/static/css/main.c16d07a2.css.map",
+    "main.a8c5112d.js.map": "/LandingPage/static/js/main.a8c5112d.js.map",
+    "453.6e473e63.chunk.js.map": "/LandingPage/static/js/453.6e473e63.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c16d07a2.css",
+    "static/js/main.a8c5112d.js"
+  ]
+}
