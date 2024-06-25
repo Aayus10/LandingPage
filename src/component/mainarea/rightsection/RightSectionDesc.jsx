@@ -6,21 +6,21 @@ export default function RightSectionDesc() {
     <>
       <Box className="desc mx-1">
         <Box className="skills ">
-          <Box className="text-xl font-bold md:text-2xl xl:text-3xl text-center lg:text-left">
+          <Box className="mt-4 text-xl font-bold md:text-2xl xl:text-3xl text-center lg:text-left">
             Skills
           </Box>
 
-          <Box className=" md:flex xs:flex-col xs:text-center items-center ">
-            <Badge className="badges " color="rgba(216, 223, 230, 1)" size="xl">
+          <Box className=" md:flex xs:flex-col xs:text-center items-center text-blue-800 gap-3">
+            <Badge className="badges " color="teal" size="lg">
               UI Designs
             </Badge>
-            <Badge className="badges" color="rgba(216, 223, 230, 1)" size="xl">
+            <Badge className="badges" color="teal" size="lg">
               Coding
             </Badge>
-            <Badge className="badges" color="rgba(216, 223, 230, 1)" size="xl">
+            <Badge className="badges" color="teal" size="lg">
               Python
             </Badge>
-            <Badge className="badges" color="rgba(216, 223, 230, 1)" size="xl">
+            <Badge className="badges" color="teal" size="lg">
               Artificial Intelligence
             </Badge>
           </Box>

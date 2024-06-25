@@ -5,12 +5,12 @@ import "./styles/Header.css";
 
 export default function Header() {
   const [opened, setopened] = useState(false);
-  const [isWide, setIsWide] = useState(window.innerWidth > 768);
+  const [isWide, setIsWide] = useState(window.innerWidth > 767);
   const toggle = () => {
     setopened(!opened);
   };
   useEffect(() => {
-    const handleResize = () => setIsWide(window.innerWidth > 768);
+    const handleResize = () => setIsWide(window.innerWidth > 767);
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
